@@ -1,0 +1,28 @@
+{
+  "name": "baseline-sast-testing",
+  "version": "1.0.0",
+  "description": "RailsGoat is a vulnerable version of the Ruby on Rails Framework from versions 3 to 6. It includes vulnerabilities from the OWASP Top 10, as well as some \"extras\" that the initial project contributors felt worthwhile to share. This project is designed to educate both developers, as well as security professionals.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint": "^8.46.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-security": "^1.7.1",
+    "eslint-plugin-security-node": "^1.1.1"
+  }
+}
